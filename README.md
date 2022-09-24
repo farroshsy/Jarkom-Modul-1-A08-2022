@@ -35,12 +35,31 @@ Menggunakan display filter tcp.dstport == 80 || udp.dstport == 80 untuk menampil
 ![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.3/3.png) <br>
 
 ## **Nomor 4**
+**Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!** <br>
+Menggunakan display filter tcp.srccport == 21 || udp.srcport == 21 untuk menangkap semua paket yang berasal dari port 21 <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.4/4.png) <br>
 
 ## **Nomor 5**
+**Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!** <br>
+Menggunakan display filter tcp.srcport == 443 || udp.srcport == 443 untuk menangkap semua paket yang berasal dari port 443 <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.5/5.png) <br>
+
 
 ## **Nomor 6**
+**Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id** <br>
+Kita pertama harus mencari tahu ip dari lipi.go.id, untungnya ada packet http yang tertuju pada alamat ip lipi.go.id, <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.6/6a.png) <br>
+Kemudian kita hanya perlu menggunakan ip pada destinasi paket sebelumnya pada ip.dst untuk mencari paket mana saja yang destinasinya tertuju pada alamat yang sama. <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.6/6b.png) <br>
 
 ## **Nomor 7**
+**Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!** <br>
+Mengecek IP address: <br>
+Membuka command prompt, <br>
+Mengetikkan perintah ipconfig, <br>
+Lihat IP address pada perangkat(192.168.198.1). <br>
+<br>Menggunakan filter capture src host, <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.7/7.png) <br>
 
 ## **Nomor 8**
 **Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.**
