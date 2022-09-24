@@ -8,7 +8,7 @@
 
 
 ## **Nomor 1**
-**Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! ** <br>
+**Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!** <br>
 Mencari paket dengan filter http.host == monta.if.its.ac.id <br>
 ![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.1/1a.png) <br>
 
@@ -18,7 +18,7 @@ Setelah itu muncul dialog box sebagai berikut, dan dapat dilihat bahwa server ya
 
 
 ## **Nomor 2**
-**Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ? ** <br>
+**Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?** <br>
 
 Pertama kita cari tahu paket apa yang berisi data yang berkaitan dengan menggunakan (http.request.uri contains “detail”) atau “topik”, <br>
 ![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.2/2a.png) <br>
