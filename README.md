@@ -52,7 +52,7 @@ Menggunakan display filter tcp.dstport == 80 || udp.dstport == 80 untuk menampil
 # **Kendala**
 
 Terdapat beberapa kendala saat dilakukannya pengerjaan praktikum, antara lain sebagai berikut:
-1. 
+1. Terjadi kegagalan dalam proses decryption, dikarenakan file yang kita extract bukan paket byte murni, isi file tersebut telah dikonversi ke ASCII sehingga sebagian besar jumlah karakter dalam file dirubah paksa menjadi tanda titik.
 
 
 
