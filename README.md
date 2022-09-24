@@ -8,7 +8,7 @@
 
 
 ## **Nomor 1**
-Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! <br>
+**Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! ** <br>
 Mencari paket dengan filter http.host == monta.if.its.ac.id <br>
 ![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.1/1a.png) <br>
 
@@ -18,7 +18,7 @@ Setelah itu muncul dialog box sebagai berikut, dan dapat dilihat bahwa server ya
 
 
 ## **Nomor 2**
-Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ? <br>
+**Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ? ** <br>
 
 Pertama kita cari tahu paket apa yang berisi data yang berkaitan dengan menggunakan (http.request.uri contains “detail”) atau “topik”, <br>
 ![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.2/2a.png) <br>
@@ -30,7 +30,7 @@ Jika kita follow http stream dari paket tersebut, kita dapat mencari sesuai uri 
 Dan dapat dilihat bahwa judul TA yang sedang dibuka oleh ishaq adalah “Evaluasi unjuk kerja User Space Filesystem FUSE1 <br>
 
 ## **Nomor 3**
-Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! <br>
+**Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!** <br>
 Menggunakan display filter tcp.dstport == 80 || udp.dstport == 80 untuk menampilkan semua paket yang menuju port 80 <br>
 ![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.3/3.png) <br>
 
@@ -43,15 +43,15 @@ Menggunakan display filter tcp.dstport == 80 || udp.dstport == 80 untuk menampil
 ## **Nomor 7**
 
 ## **Nomor 8**
-Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
+**Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.**
 
 
 ## **Nomor 9**
-Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
+**Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.**
 
 
 ## **Nomor 10**
-Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
+**Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!**
 
 
 # **Kendala**
