@@ -43,10 +43,15 @@ Menggunakan display filter tcp.dstport == 80 || udp.dstport == 80 untuk menampil
 ## **Nomor 7**
 
 ## **Nomor 8**
+Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
+
 
 ## **Nomor 9**
+Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.
+
 
 ## **Nomor 10**
+Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
 
 
 # **Kendala**
