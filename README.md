@@ -27,7 +27,8 @@ Pertama kita cari tahu paket apa yang berisi data yang berkaitan dengan mengguna
 Jika kita follow http stream dari paket tersebut, kita dapat mencari sesuai uri yang ditinjau pada paket, <br>
 ![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.2/2c.png) <br>
 ![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.2/2d.png) <br>
-Dan dapat dilihat bahwa judul TA yang sedang dibuka oleh ishaq adalah “Evaluasi unjuk kerja User Space Filesystem FUSE1 <br>
+Juga dapat kita lihat dalam file html [di sini](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/194.html) <br>
+Dan dapat dilihat bahwa judul TA yang sedang dibuka oleh ishaq adalah "Evaluasi unjuk kerja User Space Filesystem (FUSE)". <br>
 
 ## **Nomor 3**
 **Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!** <br>
