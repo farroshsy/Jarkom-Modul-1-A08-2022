@@ -62,26 +62,27 @@ Lihat IP address pada perangkat(192.168.198.1). <br>
 ![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.7/7.png) <br>
 
 ## **Nomor 8**
-**Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.**
-
+**Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.** <br>
+Di sini kami sedikit kebingungan apakah menggunakan filter ssh atau tcp, jika dengan filter ssh, kita dapat mengikuti ip lain untuk mendapatkan pesan yang tepat. tetapi dengan tcp.stream, kita dapat melihat paket, kemudian mengecek ulang pada flag push, <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.8/8a.png) <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.8/8b.png) <br>
+Terdapat beberapa percakapan lanjutan dari percakapan di atas, tapi hanya membahas password sehingga tidak perlu ditampilkan juga. <br>
 
 ## **Nomor 9**
-**Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.**
-
+**Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.** <br>
+Berikut file salt yang ditemukan setelah mencari packet tcp yang berasal atau menuju port 9002, <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.9/9a.png) <br>
+Setelah itu file tersebut kami simpan menggunakan opsi “Save as…” dengan nama A08.des3. Sayangnya setelah berulang kali usaha decryption menggunakan openssl dan dengan password “nakano”, semua hasilnya mengembalikan error bad decrypt dan file flag.txt yang berisi sampah, <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.9/9b.png) <br>
+Ternyata proses decryption tersebut gagal karena file yang kita extract bukan paket byte murni, isi file tersebut telah dikonversi ke ASCII sehingga sebagian besar jumlah karakter dalam file dirubah paksa menjadi tanda titik. Kemudian kita menggunakan opsi File > Export Packet Bytes untuk mengekstrak ulang file tersebut dan berikut hasil decryption menggunakan openssl dengan password sebelumnya, <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.9/9c.png) <br>
 
 ## **Nomor 10**
-**Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!**
-
+**Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!** <br>
+Berikut flag yang kami temukan dari decryption openssl sebelumnya, <br>
+![alt text](https://github.com/farroshsy/Jarkom-Modul-1-A08-2022/blob/main/assets%20modul%201/No.10/10.png) <br>
 
 # **Kendala**
 
 Terdapat beberapa kendala saat dilakukannya pengerjaan praktikum, antara lain sebagai berikut:
 1. Terjadi kegagalan dalam proses decryption, dikarenakan file yang kita extract bukan paket byte murni, isi file tersebut telah dikonversi ke ASCII sehingga sebagian besar jumlah karakter dalam file dirubah paksa menjadi tanda titik.
-
-
-
-
-
-
-
-	
