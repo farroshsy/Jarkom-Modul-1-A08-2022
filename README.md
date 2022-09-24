@@ -68,6 +68,7 @@ Lihat IP address pada perangkat(192.168.198.1). <br>
 ## **Nomor 9**
 **Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”.**
 
+jumlah karakter dalam file dirubah paksa menjadi tanda titik. Kemudian kita menggunakan opsi File > Export Packet Bytes untuk mengekstrak ulang file tersebut dan berikut hasil decryption menggunakan openssl dengan password sebelumnya,
 
 ## **Nomor 10**
 **Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!**
